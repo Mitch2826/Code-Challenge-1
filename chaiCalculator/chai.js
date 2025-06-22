@@ -18,11 +18,10 @@ function calculateChaiIngredients(numberOfCups){
     console.log(`Sugar (Sukari): ${sugar} teaspoons\n`);
     console.log(`Enjoy your Chai Bora!`);
 }
-calculateChaiIngredients(numberOfCups);
 
 //validation of the user input
 if (numberOfCups <= 0 || isNaN(numberOfCups)){
     console.log("Please enter valid number of cups!");
 } else {
-    calculateChaiIngredients(numberOfCups);
+    calculateChaiIngredients(numberOfCups); //calls the function if both conditions are false
 }
