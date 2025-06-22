@@ -1,10 +1,10 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); //defines prompt
 
-// Prompt the user:
-const input = prompt("Karibu! How many cups of Chai Bora would you like to make?")
-const numberOfCups = Number(input); //Ensures the string input is converted to number
+// prompt the user:
+const input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
+const numberOfCups = Number(input); //ensures the string input is converted to number
 
-//function to calculate chai ingredients
+//function to calculate chai ingredients 
 function calculateChaiIngredients(numberOfCups){
     const water = 200 * numberOfCups; //ml
     const milk = 50 * numberOfCups;//ml
@@ -19,9 +19,9 @@ function calculateChaiIngredients(numberOfCups){
     console.log(`Enjoy your Chai Bora!`);
 }
 
-//validation of the user input
+//validation of the user input using if else
 if (numberOfCups <= 0 || isNaN(numberOfCups)){
-    console.log("Please enter valid number of cups!");
+    console.log("Please enter valid number of cups!"); //logs this if one of the conditions is true
 } else {
     calculateChaiIngredients(numberOfCups); //calls the function if both conditions are false
 }
