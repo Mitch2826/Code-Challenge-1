@@ -1,16 +1,16 @@
 const prompt = require('prompt-sync')(); //imports prompt-sync
 
-//prompts user for distance
+//prompts user to enter distance
 const input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?: ");
 const distanceInKm = Number(input); //converts string input to a number
 
 //function to calculate fare
 function calculateBodaFare(distance){
-const baseFare = 50;
-const chargePerKm= 15;
+    const baseFare = 50;
+    const chargePerKm= 15;
 
-let charge= distance * chargePerKm;// calculates the total charge per kilometre
-let totalFare = baseFare + (distance * chargePerKm);// calculates the total fare
+    let charge= distance * chargePerKm;// calculates the total charge per kilometre
+    let totalFare = baseFare + (distance * chargePerKm);// calculates the total fare
     //logs console output
     console.log(`Uko kwote? Io ni ${distance} km: `);
     console.log(`Ukikalia Pikipiki: KES ${baseFare}`);
