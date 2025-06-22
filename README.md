@@ -1,16 +1,30 @@
 # Code-Challenge-1
 
 ## Description
-This repository contains three JavaScript challenges for estimating tasks like making Kenyan Chai, and estimating fare and transaction fees
+This repository contains three JavaScript challenges for estimating tasks.
 
-Each challenge is stored in a separate folder
+Each challenge is stored in a separate folder and uses [prompt-sync] for user input in Node.js. They are:
+1. **Chai Bora Ingredient Calculator** - Calculates amount of ingredients needed per cup of Kenyan tea.
+2. **Boda Boda Fare Estimator** - Estimates ride fare based on travelled distance
+3. **Mobile Money Fee Estimator** - Calculates mobile money transaction fees
 
 ## Project Setup
-1. Fork and clone the repository
-2. Navigate to Code-Challenge-1 folder
-    cd Code-Challenge-1
-3. Install prompt package:
+ 1. Fork and clone the repository
+    ```sh
+        git clone https://github.com/your-username/Code-Challenge-1.git
+        cd Code-Challenge-1
+    ```
+ 2. Install dependencies
+    ```sh
+    npm install
     npm install prompt-sync
-4. Run a challenge:
+    ```
+ 3. Run a challenge
+    Navigate into the challenge folder and run the script:
+    ```sh
     cd chaiCalculator
-    node chai.js 
+    node chai.js
+
+## Contact
+Email - maranimitchelle@gmail.com
+Project Link: [https://github.com/Mitch2826/Code-Challenge-1.git](https://github.com/Mitch2826/Code-Challenge-1.git)
