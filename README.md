@@ -3,7 +3,7 @@
 ## Description
 This repository contains three JavaScript challenges for estimating tasks.
 
-Each challenge is stored in a separate folder and uses [prompt-sync] for user input in Node.js. They are:
+Each challenge is stored in a separate folder and uses [prompt-sync] for user input:
 1. **Chai Bora Ingredient Calculator** - Calculates amount of ingredients needed per cup of Kenyan tea.
 2. **Boda Boda Fare Estimator** - Estimates ride fare based on travelled distance
 3. **Mobile Money Fee Estimator** - Calculates mobile money transaction fees
