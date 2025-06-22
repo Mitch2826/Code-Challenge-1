@@ -20,7 +20,6 @@ Each challenge is stored in a separate folder and uses [prompt-sync] for user in
     npm install prompt-sync
     ```
  3. Run a challenge
-    Navigate into the challenge folder and run the script:
     ```sh
     cd chaiCalculator
     node chai.js
