@@ -1,16 +1,17 @@
 const prompt = require('prompt-sync')(); //defines prompt
 
-// prompt the user:
+// prompt the user to enter number of cups
 const input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
 const numberOfCups = Number(input); //ensures the string input is converted to number
 
-//function to calculate chai ingredients 
+//function to calculate chai ingredients per cup
 function calculateChaiIngredients(numberOfCups){
     const water = 200 * numberOfCups; //ml
     const milk = 50 * numberOfCups;//ml
     const teaLeaves = 1 * numberOfCups; //tablespoons
     const sugar = 2 * numberOfCups; //teaspoons
 
+    //displays the calculated ingredients
     console.log(`To make ${numberOfCups} cups of Kenyan Chai, you will need:`);
     console.log(`Water: ${water} ml`);
     console.log(`Milk: ${milk} ml`);
